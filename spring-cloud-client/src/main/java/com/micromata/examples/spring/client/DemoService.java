@@ -18,7 +18,7 @@ import javax.annotation.PostConstruct;
 public class DemoService {
   private static final Logger LOG = LoggerFactory.getLogger(DemoService.class);
 
-  @Value("${key:undefined}")
+  @Value("${name:undefined}")
   private String value;
 
   public String getValue() {
